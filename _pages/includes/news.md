@@ -1,6 +1,7 @@
 <h1 class="lang-zh">🔥 新闻</h1>
 <h1 class="lang-en">🔥 News</h1>
 
+- <span class="lang-zh">*2026.05*: 🎉 一篇论文被 **自动化学报** 接收！</span><span class="lang-en">*2026.05*: 🎉 One paper is accepted by **Automatic Chemical Report**!</span>
 - <span class="lang-zh">*2026.04*: 🎉 三篇论文被 **ACL 2026** 接收！</span><span class="lang-en">*2026.04*: 🎉 Three papers are accepted by **ACL 2026**!</span>
 - <span class="lang-zh">*2026.02*: 🎉 一篇论文被 **CVPR 2026** 接收！</span><span class="lang-en">*2026.02*: 🎉 One paper is accepted by **CVPR 2026**!</span>
 - <span class="lang-zh">*2026.01*: 🎉 一篇论文被 **CVIU 2025** 接收！</span><span class="lang-en">*2026.01*: 🎉 One paper is accepted by **CVIU 2025**!</span>

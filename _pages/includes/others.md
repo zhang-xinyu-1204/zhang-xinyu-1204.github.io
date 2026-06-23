@@ -1,7 +1,7 @@
 <div class="lang-zh" markdown="1">
 
 # 📖 教育背景
-- *2021.09 - 2026.06*，博士，计算机科学与技术，西安交通大学
+- *2021.09 - 至今*，博士，计算机科学与技术，西安交通大学
 - *2017.08 - 2021.07*，本科，计算机科学与技术，西安交通大学（辅修：自动化）
 
 # 💻 研究经历
@@ -16,7 +16,7 @@
 <div class="lang-en" style="display:none;" markdown="1">
 
 # 📖 Educations
-- *2021.09 - 2026.06*, Ph.D. in Computer Science and Technology, Xi'an Jiaotong University
+- *2021.09 - Present*, Ph.D. in Computer Science and Technology, Xi'an Jiaotong University
 - *2017.08 - 2021.07*, B.Eng. in Computer Science and Technology, Xi'an Jiaotong University (Minor: Automation)
 
 # 💻 Research Experiences
