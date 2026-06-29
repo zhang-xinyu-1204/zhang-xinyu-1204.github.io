@@ -3,4 +3,17 @@
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
 
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" onload="document.querySelector('.busuanzi-counter')&&(document.querySelector('.busuanzi-counter').style.display='block')"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script>
+(function() {
+  var observer = new MutationObserver(function() {
+    var el = document.getElementById('busuanzi_value_site_pv');
+    if (el && el.textContent) {
+      var counter = document.querySelector('.busuanzi-counter');
+      if (counter) { counter.style.display = 'block'; }
+      observer.disconnect();
+    }
+  });
+  observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+})();
+</script>
