@@ -2,11 +2,11 @@
 
 *†: Corresponding Author*
 
-📊 **已发表17篇论文，其中第一作者/学生一作11篇，第一作者CCF-A类论文7篇****Published 17 papers, including 11 as first/student first author and 7 first-author CCF-A papers.**
+📊 **已发表17篇论文，其中第一作者/学生一作11篇，第一作者CCF-A类论文7篇** **Published 17 papers, including 11 as first/student first author and 7 first-author CCF-A papers.**
 
 ### 📌 First-Author Publications (一作文章)
 
-* [面向示意图问答的前瞻性多视角视觉推理框架], **张新宇**, 吴艳瑞, 张玲玲, 董宇轩, 杨泽晟, 武亚强, 郑庆华, **自动化学报 2026** (CCF-A)
+* 面向示意图问答的前瞻性多视角视觉推理框架, **张新宇**, 吴艳瑞, 张玲玲, 董宇轩, 杨泽晟, 武亚强, 郑庆华, **自动化学报 2026** (CCF-A)
 * [Beyond Layer-Wise Merging: Chain-of-Merging for Vision-Language Models](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Beyond_Layer-Wise_Merging_Chain-of-Merging_for_Vision-Language_Models_CVPR_2026_paper.pdf), **Xinyu Zhang**, Yuxuan Dong, Lingling Zhang, Chengyou Jia, Zhuohang Dang, YiXing Yao, Yaqiang Wu, Basura Fernando, Jun Liu, **CVPR 2026** (CCF-A)
 * [Dual-Cluster Memory Agent: Resolving Multi-Paradigm Ambiguity in Optimization Problem Solving](https://arxiv.org/abs/2604.20183), **Xinyu Zhang**, Yuchen Wan, Boxuan Zhang, Zesheng Yang, Lingling Zhang, Bifan Wei, Jun Liu, **ACL 2026** (CCF-A)
 * [OptiVerse: A Comprehensive Benchmark towards Optimization Problem Solving](https://arxiv.org/abs/2604.21510), **Xinyu Zhang**, Boxuan Zhang, Yuchen Wan, Lingling Zhang, YiXing Yao, Bifan Wei, Yaqiang Wu, Jun Liu, **ACL 2026 Findings**
@@ -21,7 +21,7 @@
 
 ### 🤝 Co-Authored Publications (合作文章)
 
-* [PhysPRM: A Generative Process Reward Model with Fine-grained Diagnosis for Physics Problem Solving], Yuxuan Dong, **Xinyu Zhang†**, Lingling Zhang, Han Lai, Pengyu Li, Bifan Wei, Yaqiang Wu, Jun Liu, **ACL 2026 Findings**
+* PhysPRM: A Generative Process Reward Model with Fine-grained Diagnosis for Physics Problem Solving, Yuxuan Dong, **Xinyu Zhang†**, Lingling Zhang, Han Lai, Pengyu Li, Bifan Wei, Yaqiang Wu, Jun Liu, **ACL 2026 Findings**
 * [Correspondence Coverage Matters for Multi-Modal Dataset Distillation](https://ojs.aaai.org/index.php/AAAI/article/view/39207), Zhuohang Dang, Minnan Luo, Chengyou Jia, Hangwei Qian, **Xinyu Zhang**, Xiaojun Chang, Ivor Tsang, **AAAI 2026** (CCF-A)
 * [Encode Geometric Diagram as Geo-Graph in Geometry Problem Solving](https://ojs.aaai.org/index.php/AAAI/article/view/39020), Wenjun Wu, Lingling Zhang, Bo Zhao, Bo Li, **Xinyu Zhang**, Yanrui Wu, **AAAI 2026** (CCF-A)
 * [LogicGraph: Benchmarking Multi-Path Logical Reasoning via Neuro-Symbolic Generation and Verification](https://arxiv.org/abs/2602.21044), Yanrui Wu, Lingling Zhang, **Xinyu Zhang**, Jiaqi Chang, Pengyu Li, Xiaolin Jiang, Jiancheng Hu, Jun Liu, **arXiv 2026**
