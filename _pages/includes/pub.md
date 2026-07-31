@@ -8,7 +8,7 @@
 
 * 面向示意图问答的前瞻性多视角视觉推理框架, **张新宇**, 吴艳瑞, 张玲玲, 董宇轩, 杨泽晟, 武亚强, 郑庆华, **自动化学报 2026** (CCF-A)
 * [Beyond Layer-Wise Merging: Chain-of-Merging for Vision-Language Models](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Beyond_Layer-Wise_Merging_Chain-of-Merging_for_Vision-Language_Models_CVPR_2026_paper.pdf), **Xinyu Zhang**, Yuxuan Dong, Lingling Zhang, Chengyou Jia, Zhuohang Dang, YiXing Yao, Yaqiang Wu, Basura Fernando, Jun Liu, **CVPR 2026** (CCF-A)
-* [Dual-Cluster Memory Agent: Resolving Multi-Paradigm Ambiguity in Optimization Problem Solving](https://arxiv.org/abs/2604.20183), **Xinyu Zhang**, Yuchen Wan, Boxuan Zhang, Zesheng Yang, Lingling Zhang, Bifan Wei, Jun Liu, **ACL 2026** (CCF-A)
+* [Dual-Cluster Memory Agent: Resolving Multi-Paradigm Ambiguity in Optimization Problem Solving](https://arxiv.org/abs/2604.20183), **Xinyu Zhang**, Yuchen Wan, Boxuan Zhang, Zesheng Yang, Lingling Zhang, Bifan Wei, Jun Liu, **ACL 2026** (CCF-A, Oral, ~2%)
 * [OptiVerse: A Comprehensive Benchmark towards Optimization Problem Solving](https://arxiv.org/abs/2604.21510), **Xinyu Zhang**, Boxuan Zhang, Yuchen Wan, Lingling Zhang, YiXing Yao, Bifan Wei, Yaqiang Wu, Jun Liu, **ACL 2026 Findings**
 * [CoFFT: Chain of Foresight-Focus Thought for Visual Language Models](https://arxiv.org/abs/2509.22010), **Xinyu Zhang**, Yuxuan Dong, Lingling Zhang, Chengyou Jia, Zhuohang Dang, Basura Fernando, Jun Liu, Mike Zheng Shou, **NeurIPS 2025** (CCF-A)
 * [PhysReason: A Comprehensive Benchmark towards Physics-Based Reasoning](https://arxiv.org/abs/2502.12054), **Xinyu Zhang**, Yuxuan Dong, Yanrui Wu, Jiaxing Huang, Chengyou Jia, Basura Fernando, Mike Zheng Shou, Lingling Zhang, Jun Liu, **ACL 2025** (CCF-A)
