@@ -91,8 +91,16 @@ $(document).ready(function(){
         this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
       }
     },
-    closeOnContentClick: true,
+closeOnContentClick: true,
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
+
+  // avatar switcher
+  $('.avatar-dot').on('click', function() {
+    $('.avatar-dot').removeClass('active');
+    $(this).addClass('active');
+    $('#author-avatar-img').attr('src', $(this).data('img'));
+  });
+});
 
 });
