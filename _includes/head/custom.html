@@ -29,6 +29,27 @@
 .lang-btn:not(.active):hover {
     background-color: #e0e0e0;
 }
+
+.avatar-switcher {
+    text-align: center;
+    margin-top: 8px;
+}
+.avatar-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.avatar-dot.active {
+    background-color: #555;
+}
+.avatar-dot:hover {
+    background-color: #888;
+}
 </style>
 
 <script>

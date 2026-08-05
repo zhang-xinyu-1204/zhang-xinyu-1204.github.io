@@ -7,6 +7,8 @@
 - *2019.07 - 2021.07*，实习生，西安交大-华为云菁英班
 - *2017.08 - 2021.07*，本科，计算机科学与技术，西安交通大学（辅修：自动化）
 
+<span class='anchor' id='academic-service'></span>
+
 # 🎖️ 学术服务
 - *2023.11 - 2024.11*，主席，中国计算机学会 (CCF) 西安交通大学学生分会
 - 审稿人，CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, TCSVT, TNNLS 等期刊/会议
@@ -22,7 +24,9 @@
 - *2019.07 - 2021.07*, Intern, XJTU-Huawei Cloud AI Elite Class
 - *2017.08 - 2021.07*, B.Eng. in Computer Science and Technology, Xi'an Jiaotong University (Minor: Automation)
 
-# 🎖️ Academic Positions
+<span class='anchor' id='academic-service'></span>
+
+# 🎖️ Academic Service
 - *2023.11 - 2024.11*, Chair, CCF Xi'an Jiaotong University Student Chapter
 - Reviewer, CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, TCSVT, TNNLS, etc.
 
