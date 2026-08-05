@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xinyu Zhang (张新宇)"
-description              : "Huashan Elite Associate Professor at Xidian University. Focusing on Visual Reasoning, Multimodal Large Language Models, and Multi-Agent Systems."
+title                    : "张新宇 (Xinyu Zhang)"
+description              : "西安电子科技大学华山菁英副教授。研究方向：大模型和多智能体系统的理解、推理与应用。"
 repository               : "dxzxy12138/dxzxy12138.github.io"
 google_scholar_stats_use_cdn : true
 

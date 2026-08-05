@@ -3,7 +3,7 @@ import os
 
 # --- 配置 ---
 # 源图片路径
-source_image_path = os.path.join('images', 'ZXY-3.jpg')
+source_image_path = os.path.join('images', 'ZXY-1.jpg')
 
 # 目标图标尺寸和文件名
 output_specs = {
