@@ -2,6 +2,7 @@
 
 # 🔥 新闻
 
+- *2026.08*: 🎉 一篇论文被 **EMNLP 2026** 接收！
 - *2026.07*: 🏆 获得 **徐宗本应用数学奖**！
 - *2026.05*: 🎉 一篇论文被 [**自动化学报**](https://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c260129) 接收！
 - *2026.04*: 🎉 三篇论文被 **ACL 2026** 接收！其中一篇为 **Oral** (~2% 录取率)！
@@ -21,6 +22,7 @@
 
 # 🔥 News
 
+- *2026.08*: 🎉 One paper is accepted by **EMNLP 2026**!
 - *2026.07*: 🏆 Received the **Xu Zongben Applied Mathematics Award**!
 - *2026.05*: 🎉 One paper is accepted by [**Acta Automatica Sinica**](https://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c260129)!
 - *2026.04*: 🎉 Three papers are accepted by **ACL 2026**! One is selected as **Oral** (~2% acceptance rate)!
