@@ -10,7 +10,7 @@
 
 于 2021 年获得西安交通大学的计算机科学与技术学士学位，同时参与 <strong>"华为云"人工智能菁英班</strong> 项目，辅修自动化学士学位。
 
-如果您对我的研究感兴趣，欢迎通过邮件联系我：<a href="mailto:zhangxinyu01@xidian.edu.cn">zhangxinyu01@xidian.edu.cn</a> 或 <a href="mailto:zhibei1204@gmail.com">zhibei1204@gmail.com</a>。办公地址：南校区网安大楼人工智能学院1108。
+如果您对我的研究感兴趣，欢迎通过邮件联系我：<a href="mailto:zhangxinyu01@xidian.edu.cn">zhangxinyu01@xidian.edu.cn</a> 或 <a href="mailto:zhibei1204@gmail.com">zhibei1204@gmail.com</a>。
 </div>
 
 <div class="lang-en" style="display:none;">
