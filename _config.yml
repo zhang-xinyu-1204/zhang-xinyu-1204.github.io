@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "张新宇 (Xinyu Zhang)"
-description              : "西安电子科技大学华山菁英副教授。研究方向：1、大模型的推理、博弈与进化；2、无人机的感知、通信与导航。"
+description              : "西安电子科技大学华山菁英副教授。"
 repository               : "dxzxy12138/dxzxy12138.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :
 author:
   name             : "Xinyu Zhang (张新宇)"
   avatar           : "images/ZXY-3.jpg"
-  location         : "中国西安电子科技大学南校区网安大楼人工智能学院1108"
+  location         : "中国西安·人工智能学院1108"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=gw14oEMAAAAJ&hl=zh-CN"
