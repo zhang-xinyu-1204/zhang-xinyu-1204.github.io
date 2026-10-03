@@ -4,7 +4,7 @@
 
 *†：通讯作者*
 
-### 📅 2026
+### 📅 2026 <span class="pub-stats">📊 8篇｜一作4｜通讯1｜CCF-A 5｜CCF-B 1</span>
 
 <div id="pub-2026-zh" markdown="1">
 
@@ -19,11 +19,9 @@
 
 </div>
 
-<div class="pub-stats">📊 8篇｜一作4｜通讯1｜CCF-A 5｜CCF-B 1</div>
-
 <div class="news-toggle" data-target="pub-2026-zh" data-more="展开更多 ▾" data-less="收起 ▴" data-expanded="false">展开更多 ▾</div>
 
-### 📅 2025
+### 📅 2025 <span class="pub-stats">📊 7篇｜一作5｜通讯0｜CCF-A 5｜CCF-B 2</span>
 
 <div id="pub-2025-zh" markdown="1">
 
@@ -37,11 +35,9 @@
 
 </div>
 
-<div class="pub-stats">📊 7篇｜一作5｜通讯0｜CCF-A 5｜CCF-B 2</div>
-
 <div class="news-toggle" data-target="pub-2025-zh" data-more="展开更多 ▾" data-less="收起 ▴" data-expanded="false">展开更多 ▾</div>
 
-### 📅 2024
+### 📅 2024 <span class="pub-stats">📊 3篇｜一作1｜通讯0｜CCF-A 3｜CCF-B 0</span>
 
 <div id="pub-2024-zh" markdown="1">
 
@@ -51,20 +47,13 @@
 
 </div>
 
-<div class="pub-stats">📊 3篇｜一作1｜通讯0｜CCF-A 3｜CCF-B 0</div>
-
-### 📅 2023
+### 📅 2023 <span class="pub-stats">📊 2篇｜一作0｜通讯1｜CCF-A 0｜CCF-B 2</span>
 
 <div id="pub-2023-zh" markdown="1">
-
 * [RPMG-FSS: Robust Prior Mask Guided Few-Shot Semantic Segmentation](https://ieeexplore.ieee.org/document/10093904), Lingling Zhang, **Xinyu Zhang†**, Qianying Wang, Wenjun Wu, Xiaojun Chang, Jun Liu, **IEEE TCSVT 2023** (CCF-B)
 * [Diagram Visual Grounding: Learning to See with Gestalt-Perceptual Attention](https://www.ijcai.org/proceedings/2023/0093.pdf), Xin Hu, Lingling Zhang, Jun Liu, **Xinyu Zhang**, Wenjun Wu, Qianying Wang, **IJCAI 2023** (CCF-B)
 
 </div>
-
-<div class="pub-stats">📊 2篇｜一作0｜通讯1｜CCF-A 0｜CCF-B 2</div>
-
-📊 **总计：20篇｜一作10｜通讯2｜CCF-A 13｜CCF-B 5**
 
 </div>
 
@@ -74,7 +63,7 @@
 
 *†: Corresponding Author*
 
-### 📅 2026
+### 📅 2026 <span class="pub-stats">📊 8 papers｜4 first-author｜1 corresponding｜5 CCF-A｜1 CCF-B</span>
 
 <div id="pub-2026-en" markdown="1">
 
@@ -89,11 +78,9 @@
 
 </div>
 
-<div class="pub-stats">📊 8 papers｜4 first-author｜1 corresponding｜5 CCF-A｜1 CCF-B</div>
-
 <div class="news-toggle" data-target="pub-2026-en" data-more="Show more ▾" data-less="Show less ▴" data-expanded="false">Show more ▾</div>
 
-### 📅 2025
+### 📅 2025 <span class="pub-stats">📊 7 papers｜5 first-author｜0 corresponding｜5 CCF-A｜2 CCF-B</span>
 
 <div id="pub-2025-en" markdown="1">
 
@@ -107,11 +94,9 @@
 
 </div>
 
-<div class="pub-stats">📊 7 papers｜5 first-author｜0 corresponding｜5 CCF-A｜2 CCF-B</div>
-
 <div class="news-toggle" data-target="pub-2025-en" data-more="Show more ▾" data-less="Show less ▴" data-expanded="false">Show more ▾</div>
 
-### 📅 2024
+### 📅 2024 <span class="pub-stats">📊 3 papers｜1 first-author｜0 corresponding｜3 CCF-A｜0 CCF-B</span>
 
 <div id="pub-2024-en" markdown="1">
 
@@ -121,9 +106,7 @@
 
 </div>
 
-<div class="pub-stats">📊 3 papers｜1 first-author｜0 corresponding｜3 CCF-A｜0 CCF-B</div>
-
-### 📅 2023
+### 📅 2023 <span class="pub-stats">📊 2 papers｜0 first-author｜1 corresponding｜0 CCF-A｜2 CCF-B</span>
 
 <div id="pub-2023-en" markdown="1">
 
@@ -131,9 +114,5 @@
 * [Diagram Visual Grounding: Learning to See with Gestalt-Perceptual Attention](https://www.ijcai.org/proceedings/2023/0093.pdf), Xin Hu, Lingling Zhang, Jun Liu, **Xinyu Zhang**, Wenjun Wu, Qianying Wang, **IJCAI 2023** (CCF-B)
 
 </div>
-
-<div class="pub-stats">📊 2 papers｜0 first-author｜1 corresponding｜0 CCF-A｜2 CCF-B</div>
-
-📊 **Total: 20 papers｜10 first-author｜2 corresponding｜13 CCF-A｜5 CCF-B**
 
 </div>
