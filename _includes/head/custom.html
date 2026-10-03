@@ -50,6 +50,37 @@
 .avatar-dot:hover {
     background-color: #888;
 }
+
+.news-hidden {
+    display: none;
+}
+.news-toggle {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 3px 12px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.85em;
+    line-height: 1.6;
+}
+.news-toggle:hover {
+    background-color: #e0e0e0;
+}
+.pub-stats {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 4px 0 14px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+.pub-stats .news-toggle {
+    margin-top: 0;
+}
 </style>
 
 <script>
@@ -84,6 +115,21 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     document.querySelectorAll('.lang-zh').forEach(el => {
         el.style.display = (el.tagName.toLowerCase() === 'span') ? 'inline' : 'block';
+    });
+
+    // 折叠/展开按钮（事件委托，兼容语言切换）
+    document.addEventListener('click', function(e) {
+        const btn = e.target.closest('.news-toggle');
+        if (!btn) return;
+        const target = document.getElementById(btn.dataset.target);
+        if (!target) return;
+        const hidden = target.querySelectorAll('.news-hidden');
+        const expanded = btn.dataset.expanded === 'true';
+        hidden.forEach(el => { el.style.display = expanded ? 'none' : 'list-item'; });
+        btn.dataset.expanded = expanded ? 'false' : 'true';
+        const moreText = btn.dataset.more || '展开更多 ▾';
+        const lessText = btn.dataset.less || '收起 ▴';
+        btn.textContent = expanded ? moreText : lessText;
     });
 });
 </script>
