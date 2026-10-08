@@ -8,7 +8,7 @@
 
 <div id="pub-2026-zh" markdown="1">
 
-* [LogicGraph: Benchmarking Multi-Path Logical Reasoning via Neuro-Symbolic Generation and Verification](https://arxiv.org/abs/2602.21044), Yanrui Wu, Lingling Zhang, **Xinyu Zhang**, Jiayu Chang, Pengyu Li, Xu Jiang, Jingtao Hu, Jun Liu, **EMNLP 2026** (CCF-B)
+* [LogicGraph: Benchmarking Multi-Path Logical Reasoning via Neuro-Symbolic Generation and Verification](https://arxiv.org/abs/2602.21044), Yanrui Wu, Lingling Zhang, **Xinyu Zhang**, Jiayu Chang, Pengyu Li, Xu Jiang, Jingtao Hu, Jun Liu, **EMNLP 2026** (CCF-B, Oral, ~2%)
 * [面向示意图问答的前瞻性多视角视觉推理框架](https://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c260129), **张新宇**, 吴艳瑞, 张玲玲, 董宇轩, 杨泽晟, 武亚强, 郑庆华, **自动化学报 2026** (CCF-A)
 * [Dual-Cluster Memory Agent: Resolving Multi-Paradigm Ambiguity in Optimization Problem Solving](https://arxiv.org/abs/2604.20183), **Xinyu Zhang**, Yuchen Wan, Boxuan Zhang, Zesheng Yang, Lingling Zhang, Bifan Wei, Jun Liu, **ACL 2026** (CCF-A, Oral, ~2%)
 * {: .news-hidden} [OptiVerse: A Comprehensive Benchmark towards Optimization Problem Solving](https://arxiv.org/abs/2604.21510), **Xinyu Zhang**, Boxuan Zhang, Yuchen Wan, Lingling Zhang, YiXing Yao, Bifan Wei, Yaqiang Wu, Jun Liu, **ACL 2026 Findings**
@@ -67,7 +67,7 @@
 
 <div id="pub-2026-en" markdown="1">
 
-* [LogicGraph: Benchmarking Multi-Path Logical Reasoning via Neuro-Symbolic Generation and Verification](https://arxiv.org/abs/2602.21044), Yanrui Wu, Lingling Zhang, **Xinyu Zhang**, Jiayu Chang, Pengyu Li, Xu Jiang, Jingtao Hu, Jun Liu, **EMNLP 2026** (CCF-B)
+* [LogicGraph: Benchmarking Multi-Path Logical Reasoning via Neuro-Symbolic Generation and Verification](https://arxiv.org/abs/2602.21044), Yanrui Wu, Lingling Zhang, **Xinyu Zhang**, Jiayu Chang, Pengyu Li, Xu Jiang, Jingtao Hu, Jun Liu, **EMNLP 2026** (CCF-B, Oral, ~2%)
 * [Towards Proactive Multi-Perspective Visual Reasoning for Diagram Question Answering](https://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c260129), **Xinyu Zhang**, Yanrui Wu, Lingling Zhang, Yuxuan Dong, Zesheng Yang, Yaqiang Wu, Qinghua Zheng, **Acta Automatica Sinica 2026** (CCF-A)
 * [Dual-Cluster Memory Agent: Resolving Multi-Paradigm Ambiguity in Optimization Problem Solving](https://arxiv.org/abs/2604.20183), **Xinyu Zhang**, Yuchen Wan, Boxuan Zhang, Zesheng Yang, Lingling Zhang, Bifan Wei, Jun Liu, **ACL 2026** (CCF-A, Oral, ~2%)
 * {: .news-hidden} [OptiVerse: A Comprehensive Benchmark towards Optimization Problem Solving](https://arxiv.org/abs/2604.21510), **Xinyu Zhang**, Boxuan Zhang, Yuchen Wan, Lingling Zhang, YiXing Yao, Bifan Wei, Yaqiang Wu, Jun Liu, **ACL 2026 Findings**

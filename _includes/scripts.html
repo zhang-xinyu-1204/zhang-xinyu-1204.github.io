@@ -3,17 +3,22 @@
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
 
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
 <script>
 (function() {
-  var observer = new MutationObserver(function() {
-    var el = document.getElementById('busuanzi_value_site_pv');
-    if (el && el.textContent) {
-      var counter = document.querySelector('.busuanzi-counter');
-      if (counter) { counter.style.display = 'block'; }
-      observer.disconnect();
+  var tries = 0;
+  var timer = setInterval(function() {
+    var pv = document.getElementById('busuanzi_value_site_pv');
+    var uv = document.getElementById('busuanzi_value_site_uv');
+    var counter = document.querySelector('.busuanzi-counter');
+    var pvReady = pv && pv.textContent && pv.textContent.trim();
+    var uvReady = uv && uv.textContent && uv.textContent.trim();
+    if (counter && (pvReady || uvReady)) {
+      counter.style.display = 'block';
+      clearInterval(timer);
+      return;
     }
-  });
-  observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+    if (++tries > 50) { clearInterval(timer); }
+  }, 200);
 })();
 </script>
