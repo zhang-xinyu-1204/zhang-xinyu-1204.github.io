@@ -111,15 +111,6 @@ document.addEventListener('DOMContentLoaded', function() {
         el.style.display = (el.tagName.toLowerCase() === 'span') ? 'inline' : 'block';
     });
 
-    // 计算周岁（出生月份及以后加一岁）
-    document.querySelectorAll('.age-display').forEach(function(el) {
-        var p = (el.dataset.birth || '').split('-');
-        var by = parseInt(p[0], 10), bm = parseInt(p[1], 10);
-        if (!by || !bm) return;
-        var now = new Date();
-        el.textContent = now.getFullYear() - by - (now.getMonth() + 1 < bm ? 1 : 0);
-    });
-
     // 折叠/展开按钮（事件委托，兼容语言切换）
     document.addEventListener('click', function(e) {
         const btn = e.target.closest('.news-toggle');
