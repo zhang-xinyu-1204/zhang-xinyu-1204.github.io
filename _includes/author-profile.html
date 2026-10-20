@@ -24,6 +24,13 @@
       {% if site.description %}
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
       {% endif %}
+      {% if author.birth_date %}
+        <li>
+          <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+          <span class="lang-zh">1999 年 12 月生 (<span class="age-display" data-birth="{{ author.birth_date }}"></span> 岁)</span>
+          <span class="lang-en" style="display:none;">Born Dec 1999 (<span class="age-display" data-birth="{{ author.birth_date }}"></span> years old)</span>
+        </li>
+      {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
