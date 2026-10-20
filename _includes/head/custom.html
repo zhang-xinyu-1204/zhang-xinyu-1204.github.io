@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var by = parseInt(p[0], 10), bm = parseInt(p[1], 10);
         if (!by || !bm) return;
         var now = new Date();
-        el.textContent = now.getFullYear() - by + (now.getMonth() + 1 >= bm ? 1 : 0);
+        el.textContent = now.getFullYear() - by - (now.getMonth() + 1 < bm ? 1 : 0);
     });
 
     // 折叠/展开按钮（事件委托，兼容语言切换）
