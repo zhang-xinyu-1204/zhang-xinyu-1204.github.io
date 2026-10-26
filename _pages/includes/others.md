@@ -11,7 +11,7 @@
 
 # 🎖️ 学术服务
 - *2023.11 - 2024.11*，主席，中国计算机学会 (CCF) 西安交通大学学生分会
-- 审稿人，CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, TCSVT, TNNLS 等期刊/会议
+- 审稿人，CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, ACL, WWW, TCSVT, TNNLS 等期刊/会议
 
 </div>
 
@@ -28,6 +28,6 @@
 
 # 🎖️ Academic Service
 - *2023.11 - 2024.11*, Chair, CCF Xi'an Jiaotong University Student Chapter
-- Reviewer, CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, TCSVT, TNNLS, etc.
+- Reviewer, CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, ACL, WWW, TCSVT, TNNLS, etc.
 
 </div>
