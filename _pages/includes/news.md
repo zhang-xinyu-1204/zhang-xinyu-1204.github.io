@@ -4,6 +4,7 @@
 
 <div id="news-zh" markdown="1">
 
+- *2026.10*: 🎉 受邀担任 **ACL Rolling Review (ARR)** 领域主席 (AC)！
 - *2026.08*: 🎉 一篇论文被 **EMNLP 2026** 接收，并入选 **Oral** (~2% 录取率)！
 - *2026.07*: 🏆 获得 **徐宗本应用数学奖**！
 - *2026.05*: 🎉 一篇论文被 [**自动化学报**](https://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c260129) 接收！
@@ -30,6 +31,7 @@
 
 <div id="news-en" markdown="1">
 
+- *2026.10*: 🎉 Invited to serve as an Area Chair (AC) for **ACL Rolling Review (ARR)**!
 - *2026.08*: 🎉 One paper is accepted by **EMNLP 2026** and selected as **Oral** (~2% acceptance rate)!
 - *2026.07*: 🏆 Received the **Xu Zongben Applied Mathematics Award**!
 - *2026.05*: 🎉 One paper is accepted by [**Acta Automatica Sinica**](https://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c260129)!
