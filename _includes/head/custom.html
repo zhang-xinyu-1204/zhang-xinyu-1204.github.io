@@ -6,7 +6,7 @@
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#0f766e">
 <link rel="stylesheet" href="assets/css/academicons.css"/>
 
 <style>
@@ -15,19 +15,29 @@
 }
 .lang-btn {
     padding: 5px 10px;
-    border: 1px solid #ccc;
-    background-color: #f0f0f0;
+    border: 1px solid var(--site-accent-border);
+    background-color: var(--site-accent-soft);
+    color: var(--site-accent);
     cursor: pointer;
     border-radius: 5px;
     font-size: 0.9em;
 }
 .lang-btn.active {
-    background-color: #007bff;
+    background-color: var(--site-accent);
     color: white;
-    border-color: #007bff;
+    border-color: var(--site-accent);
 }
 .lang-btn:not(.active):hover {
-    background-color: #e0e0e0;
+    background-color: #ccfbf1;
+    border-color: var(--site-accent);
+}
+.lang-btn.active:hover {
+    background-color: var(--site-accent-hover);
+    border-color: var(--site-accent-hover);
+}
+.lang-btn:focus-visible {
+    outline: 2px solid var(--site-accent);
+    outline-offset: 3px;
 }
 
 .avatar-switcher {
@@ -39,16 +49,16 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #ccc;
+    background-color: var(--site-accent-border);
     margin: 0 4px;
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
 .avatar-dot.active {
-    background-color: #555;
+    background-color: var(--site-accent);
 }
 .avatar-dot:hover {
-    background-color: #888;
+    background-color: var(--site-accent-hover);
 }
 
 .news-hidden {
@@ -58,16 +68,18 @@
     display: inline-block;
     margin-top: 4px;
     padding: 3px 12px;
-    border: 1px solid #ccc;
-    background-color: #f0f0f0;
-    color: #333;
+    border: 1px solid var(--site-accent-border);
+    background-color: var(--site-accent-soft);
+    color: var(--site-accent);
     cursor: pointer;
     border-radius: 5px;
     font-size: 0.85em;
     line-height: 1.6;
 }
 .news-toggle:hover {
-    background-color: #e0e0e0;
+    border-color: var(--site-accent);
+    background-color: #ccfbf1;
+    color: var(--site-accent-hover);
 }
 .pub-stats {
     font-size: 1em;

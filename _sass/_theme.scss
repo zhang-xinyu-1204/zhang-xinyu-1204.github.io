@@ -1,0 +1,51 @@
+/* Shared teal palette for the homepage and its inline controls. */
+:root {
+  --site-accent: #{$primary-color};
+  --site-accent-hover: #{$primary-color-hover};
+  --site-accent-soft: #{$primary-color-soft};
+  --site-accent-border: #{$primary-color-border};
+}
+
+.masthead {
+  border-top: 3px solid $primary-color;
+  border-bottom-color: $primary-color-border;
+}
+
+.greedy-nav .visible-links a:before {
+  background: $primary-color;
+}
+
+.page__content {
+  h1 {
+    color: $primary-color;
+    border-left: 4px solid $primary-color;
+    border-bottom-color: $primary-color-border;
+    padding-left: 0.6em;
+  }
+
+  h2, h3 {
+    color: $primary-color;
+  }
+
+  a:hover {
+    color: $primary-color-hover;
+  }
+}
+
+.author__name {
+  color: $primary-color;
+}
+
+.author__avatar img {
+  border-color: $primary-color-border;
+}
+
+.author__urls a:hover,
+.author__urls_sm a:hover {
+  color: $primary-color-hover;
+}
+
+::selection {
+  color: $primary-color-hover;
+  background: #ccfbf1;
+}

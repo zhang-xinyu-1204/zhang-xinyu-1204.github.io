@@ -39,6 +39,7 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+@import "theme";
 
 .paper-box {
     display: flex;
@@ -104,7 +105,7 @@ h1:before, .anchor:before {
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
+    background-color: $primary-color;
     font-size: .8em;
 }
 
