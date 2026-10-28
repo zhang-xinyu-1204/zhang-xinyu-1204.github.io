@@ -8,12 +8,16 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  try {
+    var savedLanguage = localStorage.getItem('homepage-language');
+    if (savedLanguage === 'en') {
+      document.documentElement.dataset.language = 'en';
+      document.documentElement.lang = 'en';
+    }
+  } catch (error) {}
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
 <meta http-equiv="cleartype" content="on">
-<head>
-  <base target="_blank">
-</head>

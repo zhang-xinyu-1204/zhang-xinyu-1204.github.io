@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="zh-CN" data-language="zh" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -11,31 +11,23 @@ layout: compress
 
   <body>
 
-    {% include browser-upgrade.html %}
+    <a class="content-skip" href="#main"><span class="lang-zh">跳至正文</span><span class="lang-en">Skip to content</span></a>
     {% include masthead.html %}
 
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
-            {{ content }}
-          </section>
-        </div>
+    <main id="main" class="academic-main" tabindex="-1">
+      <article class="academic-content">
+        {{ content }}
       </article>
-    </div>
+    </main>
 
-    <div class="busuanzi-counter" style="display:none">
-      <span id="busuanzi_container_site_pv">
-        本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
-      </span>
-      <span class="busuanzi-divider">|</span>
-      <span id="busuanzi_container_site_uv">
-        本站访客数 <span id="busuanzi_value_site_uv"></span> 人
-      </span>
-    </div>
+    <footer class="site-footer">
+      <p>© {{ site.time | date: '%Y' }} Xinyu Zhang <span aria-hidden="true">·</span> <a href="#about-me"><span class="lang-zh">返回顶部 ↑</span><span class="lang-en">Back to top ↑</span></a></p>
+      <div class="busuanzi-counter" hidden>
+        <span id="busuanzi_container_site_pv"><span class="lang-zh">访问量</span><span class="lang-en">Views</span> <span id="busuanzi_value_site_pv"></span></span>
+        <span class="busuanzi-divider">·</span>
+        <span id="busuanzi_container_site_uv"><span class="lang-zh">访客数</span><span class="lang-en">Visitors</span> <span id="busuanzi_value_site_uv"></span></span>
+      </div>
+    </footer>
 
     {% include scripts.html %}
 

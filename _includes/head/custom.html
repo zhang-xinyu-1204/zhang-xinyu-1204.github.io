@@ -1,154 +1,17 @@
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-<link rel="manifest" href="images/site.webmanifest">
-
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
-<meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon-16x16.png' | relative_url }}">
+<link rel="manifest" href="{{ '/images/site.webmanifest' | relative_url }}">
 <meta name="theme-color" content="#1e3a8a">
-<link rel="stylesheet" href="assets/css/academicons.css"/>
+<link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}">
 
-<style>
-.language-switcher {
-    margin-bottom: 15px;
-}
-.lang-btn {
-    padding: 5px 10px;
-    border: 1px solid var(--site-accent-border);
-    background-color: var(--site-accent-soft);
-    color: var(--site-accent);
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 0.9em;
-}
-.lang-btn.active {
-    background-color: var(--site-accent);
-    color: white;
-    border-color: var(--site-accent);
-}
-.lang-btn:not(.active):hover {
-    background-color: var(--site-accent-highlight);
-    border-color: var(--site-accent);
-}
-.lang-btn.active:hover {
-    background-color: var(--site-accent-hover);
-    border-color: var(--site-accent-hover);
-}
-.lang-btn:focus-visible {
-    outline: 2px solid var(--site-accent);
-    outline-offset: 3px;
-}
-
-.avatar-switcher {
-    text-align: center;
-    margin-top: 8px;
-}
-.avatar-dot {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: var(--site-accent-border);
-    margin: 0 4px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-}
-.avatar-dot.active {
-    background-color: var(--site-accent);
-}
-.avatar-dot:hover {
-    background-color: var(--site-accent-hover);
-}
-
-.news-hidden {
-    display: none;
-}
-.news-toggle {
-    display: inline-block;
-    margin-top: 4px;
-    padding: 3px 12px;
-    border: 1px solid var(--site-accent-border);
-    background-color: var(--site-accent-soft);
-    color: var(--site-accent);
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 0.85em;
-    line-height: 1.6;
-}
-.news-toggle:hover {
-    border-color: var(--site-accent);
-    background-color: var(--site-accent-highlight);
-    color: var(--site-accent-hover);
-}
-.pub-stats {
-    font-size: 1em;
-    font-weight: normal;
-    color: #777;
-    margin-left: 10px;
-}
-</style>
-
-<script>
-function switchLanguage(lang) {
-    // 根据语言选择要显示和隐藏的类
-    const showClass = 'lang-' + lang;
-    const hideClass = lang === 'zh' ? 'lang-en' : 'lang-zh';
-
-    // 遍历所有需要隐藏的元素并设置 display: 'none'
-    document.querySelectorAll('.' + hideClass).forEach(el => {
-        el.style.display = 'none';
-    });
-
-    // 遍历所有需要显示的元素并设置 display: 'block' 或 'inline'
-    document.querySelectorAll('.' + showClass).forEach(el => {
-        // 如果元素是 span，则使用 inline，否则使用 block
-        el.style.display = (el.tagName.toLowerCase() === 'span') ? 'inline' : 'block';
-    });
-
-    // 更新按钮的激活状态
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.classList.remove('active');
-    });
-    document.querySelector('.lang-btn[onclick="switchLanguage(\'' + lang + '\')"]').classList.add('active');
-}
-
-// 页面加载完成后，默认显示中文
-document.addEventListener('DOMContentLoaded', function() {
-    // 初始加载时，默认显示中文，隐藏英文
-    document.querySelectorAll('.lang-en').forEach(el => {
-        el.style.display = 'none';
-    });
-    document.querySelectorAll('.lang-zh').forEach(el => {
-        el.style.display = (el.tagName.toLowerCase() === 'span') ? 'inline' : 'block';
-    });
-
-    // 折叠/展开按钮（事件委托，兼容语言切换）
-    document.addEventListener('click', function(e) {
-        const btn = e.target.closest('.news-toggle');
-        if (!btn) return;
-        const target = document.getElementById(btn.dataset.target);
-        if (!target) return;
-        const hidden = target.querySelectorAll('.news-hidden');
-        const expanded = btn.dataset.expanded === 'true';
-        hidden.forEach(el => { el.style.display = expanded ? 'none' : 'list-item'; });
-        btn.dataset.expanded = expanded ? 'false' : 'true';
-        const moreText = btn.dataset.more || '展开更多 ▾';
-        const lessText = btn.dataset.less || '收起 ▴';
-        btn.textContent = expanded ? moreText : lessText;
-    });
-});
-</script>
-
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
+    TeX: { equationNumbers: { autoNumber: "all" } },
     tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
       processEscapes: true
     }
   });
 </script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
-
-<!-- end custom head snippets -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML" async></script>

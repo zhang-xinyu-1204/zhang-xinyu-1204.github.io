@@ -1,35 +1,10 @@
-<div class="lang-zh" markdown="1">
-
-# 📖 教育经历
-- *2026.09 - 至今*，华山菁英副教授，西安电子科技大学
-- *2024.10 - 2025.10*，访问学生，新加坡科研局 (A*STAR) & 新加坡国立大学 (NUS)
-- *2021.09 - 2026.06*，博士，计算机科学与技术，西安交通大学
-- *2019.07 - 2021.07*，实习生，西安交大-华为云菁英班
-- *2017.08 - 2021.07*，本科，计算机科学与技术，西安交通大学（辅修：自动化）
-
-<span class='anchor' id='academic-service'></span>
-
-# 🎖️ 学术服务
-- *2023.11 - 2024.11*，主席，中国计算机学会 (CCF) 西安交通大学学生分会
-- 审稿人，CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, ACL, WWW, TCSVT, TNNLS 等期刊/会议
-- 领域主席 (AC)，ACL Rolling Review (ARR)
-
-</div>
-
-<div class="lang-en" style="display:none;" markdown="1">
-
-# 📖 Education &amp; Experience
-- *2026.09 - Present*, Huashan Elite Associate Professor, Xidian University
-- *2024.10 - 2025.10*, Visiting Student, A*STAR &amp; National University of Singapore (NUS)
-- *2021.09 - 2026.06*, Ph.D. in Computer Science and Technology, Xi'an Jiaotong University
-- *2019.07 - 2021.07*, Intern, XJTU-Huawei Cloud AI Elite Class
-- *2017.08 - 2021.07*, B.Eng. in Computer Science and Technology, Xi'an Jiaotong University (Minor: Automation)
-
-<span class='anchor' id='academic-service'></span>
-
-# 🎖️ Academic Service
-- *2023.11 - 2024.11*, Chair, CCF Xi'an Jiaotong University Student Chapter
-- Reviewer, CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, ACL, WWW, TCSVT, TNNLS, etc.
-- Area Chair (AC), ACL Rolling Review (ARR)
-
-</div>
+<section id="education--experience" class="content-section" aria-labelledby="experience-heading">
+  <h2 class="section-title" id="experience-heading"><span class="lang-zh">工作与教育经历</span><span class="lang-en">Experience &amp; Education</span></h2>
+  <ol class="experience-list">
+    <li><div class="experience-date"><span class="lang-zh">2026.09 — 至今</span><span class="lang-en">2026.09 — Present</span></div><div><h3><span class="lang-zh">西安电子科技大学</span><span class="lang-en">Xidian University</span></h3><p><span class="lang-zh">华山菁英副教授</span><span class="lang-en">Huashan Elite Associate Professor</span></p></div></li>
+    <li><div class="experience-date">2024.10 — 2025.10</div><div><h3>A*STAR &amp; <span class="lang-zh">新加坡国立大学</span><span class="lang-en">National University of Singapore</span></h3><p><span class="lang-zh">访问学生</span><span class="lang-en">Visiting Student</span></p></div></li>
+    <li><div class="experience-date">2021.09 — 2026.06</div><div><h3><span class="lang-zh">西安交通大学</span><span class="lang-en">Xi'an Jiaotong University</span></h3><p><span class="lang-zh">计算机科学与技术 · 博士</span><span class="lang-en">Ph.D. in Computer Science and Technology</span></p></div></li>
+    <li><div class="experience-date">2019.07 — 2021.07</div><div><h3><span class="lang-zh">西交大—华为云菁英班</span><span class="lang-en">XJTU–Huawei Cloud AI Elite Class</span></h3><p><span class="lang-zh">实习生</span><span class="lang-en">Intern</span></p></div></li>
+    <li><div class="experience-date">2017.08 — 2021.07</div><div><h3><span class="lang-zh">西安交通大学</span><span class="lang-en">Xi'an Jiaotong University</span></h3><p><span class="lang-zh">计算机科学与技术 · 本科，辅修自动化</span><span class="lang-en">B.Eng. in Computer Science and Technology; Minor in Automation</span></p></div></li>
+  </ol>
+</section>
