@@ -1,9 +1,10 @@
-/* Shared teal palette for the homepage and its inline controls. */
+/* Shared navy palette for the homepage and its inline controls. */
 :root {
   --site-accent: #{$primary-color};
   --site-accent-hover: #{$primary-color-hover};
   --site-accent-soft: #{$primary-color-soft};
   --site-accent-border: #{$primary-color-border};
+  --site-accent-highlight: #{$primary-color-highlight};
 }
 
 .masthead {
@@ -47,5 +48,5 @@
 
 ::selection {
   color: $primary-color-hover;
-  background: #ccfbf1;
+  background: $primary-color-highlight;
 }
