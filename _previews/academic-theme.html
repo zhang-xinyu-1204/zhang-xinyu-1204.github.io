@@ -1,0 +1,98 @@
+<div id="academic-theme-preview" class="viz-dotted-background">
+  <style>
+    #academic-theme-preview { padding: 20px 0; }
+    #academic-theme-preview .academic-page {
+      --academic-color: #0f766e;
+      --academic-dark-color: #5eead4;
+      --academic-tint: #f0fdfa;
+      --academic-dark-tint: #12302e;
+      --academic-accent: light-dark(var(--academic-color), var(--academic-dark-color));
+      color-scheme: light dark;
+      margin: 0 auto;
+      max-width: 640px;
+      padding: 28px;
+      border-radius: 10px;
+      background: light-dark(#ffffff, #18201f);
+      color: light-dark(#253330, #e6eeeb);
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      font-size: 14px;
+      line-height: 1.65;
+      box-shadow: 0 3px 18px light-dark(#172b2310, #00000028);
+    }
+    #academic-theme-preview .academic-nav { display: flex; flex-wrap: wrap; gap: 18px; padding-bottom: 13px; border-bottom: 1px solid light-dark(#e4eae8, #38443f); }
+    #academic-theme-preview .academic-nav span { color: light-dark(#697a73, #a7bbb1); }
+    #academic-theme-preview .academic-nav .academic-active { color: var(--academic-accent); font-weight: 500; }
+    #academic-theme-preview .academic-name { margin: 24px 0 2px; font-size: 25px; line-height: 1.3; font-weight: 500; }
+    #academic-theme-preview .academic-role { margin: 0; color: light-dark(#5c6c65, #b0c0b7); }
+    #academic-theme-preview .academic-links { margin-top: 12px; display: flex; gap: 16px; flex-wrap: wrap; }
+    #academic-theme-preview .academic-links a { color: var(--academic-accent); text-decoration: none; }
+    #academic-theme-preview .academic-links a:hover { text-decoration: underline; }
+    #academic-theme-preview .academic-heading { margin: 24px 0 12px; border-left: 3px solid var(--academic-accent); padding-left: 10px; font-size: 17px; font-weight: 500; }
+    #academic-theme-preview .academic-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+    #academic-theme-preview .academic-tag { padding: 5px 11px; border-radius: 5px; background: light-dark(var(--academic-tint), var(--academic-dark-tint)); color: var(--academic-accent); }
+    #academic-theme-preview .academic-paper { margin: 8px 0 0; color: var(--academic-accent); }
+    #academic-theme-preview .academic-meta { margin: 4px 0 0; color: light-dark(#5c6c65, #b0c0b7); }
+    #academic-theme-preview .academic-colors { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 26px; padding-top: 18px; border-top: 1px solid light-dark(#e4eae8, #38443f); }
+    #academic-theme-preview .academic-chip { height: 30px; border-radius: 4px; margin-bottom: 6px; }
+    #academic-theme-preview .academic-color-label { display: block; }
+    #academic-theme-preview .academic-hex { color: light-dark(#5c6c65, #b0c0b7); font-size: 12px; }
+    @media (max-width: 420px) { #academic-theme-preview .academic-page { padding: 20px; } #academic-theme-preview .academic-colors { gap: 8px; } }
+  </style>
+  <section class="academic-page" aria-label="个人主页主题色预览">
+    <nav class="academic-nav" aria-label="主页栏目预览">
+      <span class="academic-active">About</span><span>Publications</span><span>Service</span>
+    </nav>
+    <h2 class="academic-name">Xinyu Zhang · 张新宇</h2>
+    <p class="academic-role">华山菁英副教授 · 西安电子科技大学</p>
+    <div class="academic-links">
+      <a href="mailto:zhangxinyu01@xidian.edu.cn">Email</a>
+      <a href="https://scholar.google.com/citations?user=gw14oEMAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+    </div>
+    <h3 class="academic-heading">Research Interests</h3>
+    <div class="academic-tags"><span class="academic-tag">大模型推理、博弈与进化</span><span class="academic-tag">无人机感知、通信与导航</span></div>
+    <h3 class="academic-heading">Selected Publications</h3>
+    <p class="academic-paper">PhysReason: A Comprehensive Benchmark towards Physics-Based Reasoning</p>
+    <p class="academic-meta">Xinyu Zhang et al. · ACL 2025</p>
+    <div class="academic-colors" aria-live="polite">
+      <div><div class="academic-chip" data-swatch="main" style="background:#0f766e"></div><span class="academic-color-label">主题色</span><span class="academic-hex" data-hex="main">#0F766E</span></div>
+      <div><div class="academic-chip" data-swatch="hover" style="background:#115e59"></div><span class="academic-color-label">悬停强调</span><span class="academic-hex" data-hex="hover">#115E59</span></div>
+      <div><div class="academic-chip" data-swatch="tint" style="background:#f0fdfa"></div><span class="academic-color-label">浅色底纹</span><span class="academic-hex" data-hex="tint">#F0FDFA</span></div>
+    </div>
+  </section>
+  <script>
+    (() => {
+      const root = document.getElementById('academic-theme-preview');
+      const page = root.querySelector('.academic-page');
+      const palettes = {
+        '深青色（推荐）': {main:'#0F766E',hover:'#115E59',tint:'#F0FDFA',dark:'#5EEAD4',darkTint:'#12302E'},
+        '藏蓝色': {main:'#1E40AF',hover:'#1E3A8A',tint:'#EFF6FF',dark:'#93C5FD',darkTint:'#182D48'},
+        '酒红色': {main:'#9F1239',hover:'#881337',tint:'#FFF1F2',dark:'#FDA4AF',darkTint:'#3C2129'}
+      };
+      const saved = window.openai?.widgetState?.modelContent?.theme;
+      const state = {theme: Object.hasOwn(palettes, saved) ? saved : '深青色（推荐）'};
+      function render() {
+        const p = palettes[state.theme];
+        page.style.setProperty('--academic-color',p.main);
+        page.style.setProperty('--academic-dark-color',p.dark);
+        page.style.setProperty('--academic-tint',p.tint);
+        page.style.setProperty('--academic-dark-tint',p.darkTint);
+        ['main','hover','tint'].forEach(key => {
+          root.querySelector('[data-swatch="'+key+'"]').style.background = p[key];
+          root.querySelector('[data-hex="'+key+'"]').textContent = p[key];
+        });
+      }
+      render();
+      if (globalThis.Tweak) {
+        const tweak = new Tweak({container:page,onChange:() => {
+          render();
+          window.openai?.setWidgetState?.({modelContent:{theme:state.theme},privateContent:null})?.catch(() => {});
+        }});
+        tweak.addSelect(state,'theme',{label:'主题配色',options:Object.keys(palettes)});
+      }
+      window.addEventListener('openai:set_globals', event => {
+        const theme = event.detail?.globals?.widgetState?.modelContent?.theme;
+        if (Object.hasOwn(palettes, theme)) {state.theme = theme; render();}
+      });
+    })();
+  </script>
+</div>
