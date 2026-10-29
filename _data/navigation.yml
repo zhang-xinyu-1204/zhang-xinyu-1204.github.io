@@ -2,6 +2,9 @@ main:
   - title: About
     title_zh: 关于我
     url: '#about-me'
+  - title: Join Us
+    title_zh: 招生
+    url: '#recruitment'
   - title: Research
     title_zh: 研究方向
     url: '#research'

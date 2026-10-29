@@ -14,6 +14,28 @@
   </div>
 </section>
 
+<section id="recruitment" class="content-section" aria-labelledby="recruitment-heading">
+  <h2 class="section-title" id="recruitment-heading"><span class="lang-zh">招生与科研招募</span><span class="lang-en">Join Us</span></h2>
+  <div class="lang-zh">
+    <h3 class="section-note">研究生招生</h3>
+    <p>招收 <strong>2028级硕士研究生（推免 / 统考）</strong>。欢迎对我们团队研究方向感兴趣的同学联系我，提前交流研究兴趣与未来规划。博士研究生及2028级之前的硕士研究生招生事宜，请联系<a href="https://web.xidian.edu.cn/dhgao/" target="_blank" rel="noopener noreferrer"><strong>高大化老师</strong></a>。</p>
+    <h3 class="section-note">本科生科研招募</h3>
+    <p>欢迎西安电子科技大学本科生加入课题组，一起参与科研探索。希望你具备一定的数学与编程基础，愿意主动学习、动手实践，并持续投入科研工作。有相关项目、竞赛或科研经历的同学，也欢迎在来信中介绍。</p>
+    <p>在招生与科研招募中，<strong>我们更看重同学的自驱力和对科研的热情</strong>，期待你能保持好奇，主动提出问题，耐心寻找答案，在交流与实践中逐步形成自己的思考。</p>
+    <p>有意申请的同学可将个人简历发送至 <a href="mailto:zhangxinyu01@xidian.edu.cn"><strong>zhangxinyu01@xidian.edu.cn</strong></a>，并简要介绍自己的学习经历和研究兴趣，欢迎提前联系交流。</p>
+    <p>期待与志同道合的同学一道，探索通用人工智能与智能无人系统的更多可能。</p>
+  </div>
+  <div class="lang-en">
+    <h3 class="section-note">Graduate Admissions</h3>
+    <p>I am recruiting <strong>master's students for 2028 entry through recommendation-based admission or the national entrance examination</strong>. If you are interested in our team's research, please get in touch to discuss your research interests and future plans. For Ph.D. applications or master's entry before 2028, please contact <a href="https://web.xidian.edu.cn/dhgao/" target="_blank" rel="noopener noreferrer"><strong>Prof. Dahua Gao</strong></a>.</p>
+    <h3 class="section-note">Undergraduate Research</h3>
+    <p>Undergraduates at Xidian University are welcome to join our group and take part in research. We hope you have some foundation in mathematics and programming, are willing to learn proactively and put ideas into practice, and can sustain your commitment to research. If you have relevant project, competition, or research experience, please feel free to share it in your email.</p>
+    <p>In admissions and research recruitment, <strong>we place particular value on self-motivation and enthusiasm for research</strong>. We hope you will stay curious, actively ask questions, patiently seek answers, and develop your own thinking through discussion and practice.</p>
+    <p>Interested applicants can send a CV to <a href="mailto:zhangxinyu01@xidian.edu.cn"><strong>zhangxinyu01@xidian.edu.cn</strong></a>, along with a brief introduction to their academic background and research interests. You are welcome to get in touch early.</p>
+    <p>I look forward to exploring new possibilities in artificial general intelligence and intelligent unmanned systems together with like-minded students.</p>
+  </div>
+</section>
+
 <section id="research" class="content-section" aria-labelledby="research-heading">
   <h2 class="section-title" id="research-heading"><span class="lang-zh">研究方向</span><span class="lang-en">Research Interests</span></h2>
     <p class="research-interests"><span class="lang-zh">大模型的推理、博弈与进化；无人机的感知、通信与导航。</span><span class="lang-en">Reasoning, game theory and evolution of large language models; perception, communication and navigation of UAVs.</span></p>
