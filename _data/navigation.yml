@@ -11,15 +11,15 @@ main:
   - title: Publications
     title_zh: 论文
     url: '#publications'
-  - title: Experience
-    title_zh: 经历
-    url: '#education--experience'
   - title: Honors
     title_zh: 荣誉
     url: '#honors-and-awards'
-  - title: Service
-    title_zh: 学术服务
-    url: '#academic-service'
+  - title: Experience
+    title_zh: 经历
+    url: '#education--experience'
   - title: Talks
     title_zh: 报告
     url: '#invited-talks'
+  - title: Service
+    title_zh: 学术服务
+    url: '#academic-service'

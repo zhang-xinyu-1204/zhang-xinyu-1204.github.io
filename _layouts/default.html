@@ -15,6 +15,9 @@ layout: compress
     {% include masthead.html %}
 
     <main id="main" class="academic-main" tabindex="-1">
+      <aside class="profile-sidebar" aria-labelledby="profile-name">
+        {% include author-profile.html %}
+      </aside>
       <article class="academic-content">
         {{ content }}
       </article>

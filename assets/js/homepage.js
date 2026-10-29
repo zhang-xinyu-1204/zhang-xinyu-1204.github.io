@@ -3,8 +3,6 @@
 
   var root = document.documentElement;
   var languageButtons = document.querySelectorAll('.lang-btn');
-  var nav = document.querySelector('.site-nav');
-  var menuButton = document.querySelector('.nav-toggle');
   var navLinks = document.querySelectorAll('.nav-links a');
 
   function setLanguage(language, remember) {
@@ -26,28 +24,6 @@
     button.addEventListener('click', function () { setLanguage(button.dataset.language, true); });
   });
 
-  function closeMenu() {
-    if (!nav || !menuButton) return;
-    nav.classList.remove('is-open');
-    menuButton.setAttribute('aria-expanded', 'false');
-  }
-
-  if (nav && menuButton) {
-    menuButton.addEventListener('click', function () {
-      var open = nav.classList.toggle('is-open');
-      menuButton.setAttribute('aria-expanded', String(open));
-    });
-    document.addEventListener('click', function (event) {
-      if (!nav.contains(event.target)) closeMenu();
-    });
-    document.addEventListener('keydown', function (event) {
-      if (event.key === 'Escape' && nav.classList.contains('is-open')) {
-        closeMenu();
-        menuButton.focus();
-      }
-    });
-  }
-
   function markSection(id) {
     navLinks.forEach(function (link) {
       if (link.getAttribute('href') === '#' + id) link.setAttribute('aria-current', 'location');
@@ -58,7 +34,6 @@
   navLinks.forEach(function (link) {
     link.addEventListener('click', function () {
       markSection(link.hash.slice(1));
-      closeMenu();
     });
   });
   markSection(window.location.hash.slice(1) || 'about-me');
@@ -68,7 +43,7 @@
       entries.forEach(function (entry) {
         if (entry.isIntersecting) markSection(entry.target.id);
       });
-    }, { rootMargin: '-90px 0px -55% 0px', threshold: 0 });
+    }, { rootMargin: '-64px 0px -55% 0px', threshold: 0 });
     document.querySelectorAll('.academic-content section[id]').forEach(function (section) {
       sectionObserver.observe(section);
     });

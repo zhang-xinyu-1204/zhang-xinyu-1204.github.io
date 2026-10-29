@@ -1,15 +1,13 @@
 {% assign paper = include.paper %}
-<article class="paper-entry{% if include.archive %} paper-entry--archive{% endif %}">
-  {% if include.archive %}<h4 class="paper-title">{% else %}<h3 class="paper-title">{% endif %}
-    {% if paper.paper_url %}<a href="{{ paper.paper_url }}" target="_blank" rel="noopener noreferrer">{% endif %}
+<article class="paper-entry">
+  <h3 class="paper-title">
       {% if paper.title_zh %}<span class="lang-zh">{{ paper.title_zh }}</span><span class="lang-en">{{ paper.title }}</span>{% else %}{{ paper.title }}{% endif %}
-    {% if paper.paper_url %}</a>{% endif %}
-  {% if include.archive %}</h4>{% else %}</h3>{% endif %}
+  </h3>
   <p class="paper-authors">{% if paper.authors_zh %}<span class="lang-zh">{{ paper.authors_zh | replace: '张新宇', '<strong>张新宇</strong>' }}</span><span class="lang-en">{{ paper.authors | replace: 'Xinyu Zhang', '<strong>Xinyu Zhang</strong>' }}</span>{% else %}{{ paper.authors | replace: 'Xinyu Zhang', '<strong>Xinyu Zhang</strong>' }}{% endif %}</p>
   <div class="paper-meta">
     <span class="paper-venue">{% if paper.venue_zh %}<span class="lang-zh">{{ paper.venue_zh }}</span><span class="lang-en">{{ paper.venue }}</span>{% else %}{{ paper.venue }}{% endif %}</span>
     {% if paper.classification %}<span class="paper-classification">{{ paper.classification }}</span>{% endif %}
-    {% if paper.distinction %}<span class="paper-distinction">{{ paper.distinction }}{% if paper.acceptance %} · {{ paper.acceptance }}{% endif %}</span>{% endif %}
-    {% if paper.paper_url %}<a class="paper-resource" href="{{ paper.paper_url }}" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if paper.distinction %}<strong class="paper-distinction">{{ paper.distinction }}{% if paper.acceptance %} ({{ paper.acceptance }}){% endif %}</strong>{% endif %}
   </div>
+  {% if paper.paper_url %}<p class="paper-links">[<a href="{{ paper.paper_url }}" target="_blank" rel="noopener noreferrer">Paper</a>]</p>{% endif %}
 </article>
