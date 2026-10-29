@@ -71,20 +71,32 @@
 
   var counter = document.querySelector('.busuanzi-counter');
   if (counter) {
-    var showCounter = function () {
+    var counterObserver;
+    var counterTimeout;
+    var refreshCounter = function () {
       var views = document.getElementById('busuanzi_value_site_pv');
       var visitors = document.getElementById('busuanzi_value_site_uv');
-      if ((views && views.textContent.trim()) || (visitors && visitors.textContent.trim())) {
-        counter.hidden = false;
+      var viewsReady = views && /^\d[\d,]*$/.test(views.textContent.trim());
+      var visitorsReady = visitors && /^\d[\d,]*$/.test(visitors.textContent.trim());
+      if (viewsReady && visitorsReady) {
+        counter.dataset.state = 'ready';
+        clearTimeout(counterTimeout);
+        if (counterObserver) counterObserver.disconnect();
         return true;
       }
       return false;
     };
-    if (!showCounter() && 'MutationObserver' in window) {
-      var counterObserver = new MutationObserver(function () {
-        if (showCounter()) counterObserver.disconnect();
-      });
-      counterObserver.observe(counter, { childList: true, subtree: true, characterData: true });
+    var markCounterUnavailable = function () {
+      if (!refreshCounter()) counter.dataset.state = 'unavailable';
+    };
+    if (!refreshCounter()) {
+      counterTimeout = setTimeout(markCounterUnavailable, 8000);
+      if ('MutationObserver' in window) {
+        counterObserver = new MutationObserver(refreshCounter);
+        counterObserver.observe(counter, { childList: true, subtree: true, characterData: true });
+      }
+      var counterScript = document.getElementById('busuanzi-script');
+      if (counterScript) counterScript.addEventListener('error', markCounterUnavailable);
     }
   }
 })();

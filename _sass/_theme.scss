@@ -44,7 +44,7 @@ button { font-family: inherit; }
 .avatar-dot::after { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #c8c8c8; }
 .avatar-dot.active::after, .avatar-dot:hover::after { background: var(--site-accent); }
 .profile-identity h1 { margin: 6px 0 12px; color: var(--site-ink); font-size: 21px; line-height: 1.2; font-weight: 700; text-align: center; }
-.profile-identity h1 span { font-size: inherit; font-weight: inherit; }
+.profile-identity h1 span { display: block; font-size: inherit; font-weight: inherit; }
 .profile-identity p { margin: 0 0 8px; }
 .profile-role { text-align: center; }
 .profile-links { list-style: none; margin: 12px 0 0; padding: 0; }
@@ -74,11 +74,12 @@ button { font-family: inherit; }
 .news-scroll .news-list { margin-top: 0; margin-bottom: 0; }
 .news-list time { font-size: inherit; color: inherit; white-space: nowrap; }
 
-/* Four ordinary text lines per paper; every paper appears exactly once. */
+/* Title, authors, then venue and resource links; every paper appears once. */
 .paper-entry { margin: 0 0 19px; padding: 0; border: 0; font-size: 15px; line-height: 1.5; }
 .paper-entry .paper-title { margin: 0; padding: 0; color: var(--site-ink); font-size: 15px; font-weight: 700; line-height: 1.5; }
 .academic-content .paper-authors, .academic-content .paper-links { margin: 0; font-size: 15px; line-height: 1.5; }
 .paper-meta { display: block; font-size: 15px; line-height: 1.5; }
+.paper-meta .paper-links { margin-left: 6px; white-space: nowrap; }
 .paper-venue { font-style: normal; }
 .paper-classification::before, .paper-distinction::before { content: " · "; }
 .paper-distinction { font-size: inherit; padding: 0; background: transparent; border: 0; border-radius: 0; }
@@ -88,6 +89,13 @@ button { font-family: inherit; }
 .site-footer { width: calc(100% - 110px); max-width: 1280px; margin: 0 auto; padding: 0 15px 25px; color: var(--site-ink); font-size: 12px; text-align: center; }
 .site-footer p { margin: 0; }
 .site-footer .busuanzi-counter { margin: 5px 0 0; padding: 0; color: inherit; font-size: inherit; }
+.counter-item { display: inline-block; }
+.counter-item > [id] { font-variant-numeric: tabular-nums; }
+.counter-status { display: inline-block; }
+.counter-unavailable { display: none; }
+.busuanzi-counter[data-state="ready"] .counter-status,
+.busuanzi-counter[data-state="unavailable"] .counter-loading { display: none; }
+.busuanzi-counter[data-state="unavailable"] .counter-unavailable { display: inline; }
 
 @media (min-width: 801px) and (max-width: 1100px) {
   .site-nav, .nav-links { gap: 10px; }

@@ -8,6 +8,6 @@
     <span class="paper-venue">{% if paper.venue_zh %}<span class="lang-zh">{{ paper.venue_zh }}</span><span class="lang-en">{{ paper.venue }}</span>{% else %}{{ paper.venue }}{% endif %}</span>
     {% if paper.classification %}<span class="paper-classification">{{ paper.classification }}</span>{% endif %}
     {% if paper.distinction %}<strong class="paper-distinction">{{ paper.distinction }}{% if paper.acceptance %} ({{ paper.acceptance }}){% endif %}</strong>{% endif %}
+    {% if paper.paper_url %}<span class="paper-links">[<a href="{{ paper.paper_url }}" target="_blank" rel="noopener noreferrer">Paper</a>]</span>{% endif %}
   </div>
-  {% if paper.paper_url %}<p class="paper-links">[<a href="{{ paper.paper_url }}" target="_blank" rel="noopener noreferrer">Paper</a>]</p>{% endif %}
 </article>

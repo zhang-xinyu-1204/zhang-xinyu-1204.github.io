@@ -25,10 +25,14 @@ layout: compress
 
     <footer class="site-footer">
       <p>© {{ site.time | date: '%Y' }} Xinyu Zhang <span aria-hidden="true">·</span> <a href="#about-me"><span class="lang-zh">返回顶部 ↑</span><span class="lang-en">Back to top ↑</span></a></p>
-      <div class="busuanzi-counter" hidden>
-        <span id="busuanzi_container_site_pv"><span class="lang-zh">访问量</span><span class="lang-en">Views</span> <span id="busuanzi_value_site_pv"></span></span>
+      <div class="busuanzi-counter" data-state="loading">
+        <span class="counter-item"><span class="lang-zh">本站总浏览量</span><span class="lang-en">Total views</span> <span id="busuanzi_value_site_pv">—</span> <span class="lang-zh">次</span></span>
         <span class="busuanzi-divider">·</span>
-        <span id="busuanzi_container_site_uv"><span class="lang-zh">访客数</span><span class="lang-en">Visitors</span> <span id="busuanzi_value_site_uv"></span></span>
+        <span class="counter-item"><span class="lang-zh">访客人数</span><span class="lang-en">Visitors</span> <span id="busuanzi_value_site_uv">—</span> <span class="lang-zh">人</span></span>
+        <span class="counter-status" role="status" aria-live="polite">
+          <span class="counter-loading"><span class="lang-zh">（加载中）</span><span class="lang-en">(Loading)</span></span>
+          <span class="counter-unavailable"><span class="lang-zh">（暂未获取）</span><span class="lang-en">(Temporarily unavailable)</span></span>
+        </span>
       </div>
     </footer>
 
