@@ -51,7 +51,7 @@ button { font-family: inherit; }
 .profile-links li { margin: 0 0 6px; }
 .profile-links a { color: var(--site-ink); }
 .profile-links a:hover { color: var(--site-accent); }
-.profile-links i, .profile-office i { display: inline-block; width: 18px; text-align: center; margin-right: 3px; }
+.profile-links i, .profile-identity p i { display: inline-block; width: 18px; text-align: center; margin-right: 3px; }
 .academic-content { min-width: 0; }
 .academic-content section[id] { scroll-margin-top: 70px; }
 .academic-content p { margin: 0 0 7.5px; }
